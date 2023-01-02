@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>io.buildpacks.example</groupId>
 	<artifactId>sample</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>sample</name>
 	<description>Sample Java Application</description>
 
@@ -43,5 +43,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>a0wpubki62cka-artifactory-primary-0-snapshots</name>
+			<url>https://kumarns.jfrog.io/artifactory/default-libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>

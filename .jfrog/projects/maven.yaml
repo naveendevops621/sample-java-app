@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: kumarns
+  snapshotRepo: default-maven-virtual
+  releaseRepo: default-maven-virtual
+deployer:
+  serverId: kumarns
+  snapshotRepo: default-maven-virtual
+  releaseRepo: default-maven-virtual
